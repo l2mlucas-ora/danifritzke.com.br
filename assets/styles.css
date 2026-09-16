@@ -109,6 +109,10 @@ nav.principal a[aria-current="page"] {
   border-bottom: 2px solid var(--dourado);
   padding-bottom: 2px;
 }
+/* O botão do menu também é um `a` do nav: sem isto, a cor castanha dos links
+   vence a do .btn e a letra some contra o fundo ameixa. */
+nav.principal a.btn,
+nav.principal a.btn:hover { color: var(--creme); }
 
 /* ---------- botões ---------- */
 
